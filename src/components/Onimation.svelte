@@ -18,7 +18,7 @@
 <section class="relative h-[100dvh] w-[100dvw] shrink-0 flex items-center justify-center">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000"
     preserveAspectRatio="xMidYMid meet">
-    <circle class="fill-transparent stroke-[#f5fffa] stroke-[200px] invisible fixed inset-0
+    <circle class="fill-transparent stroke-[##ff4500] stroke-[200px] invisible fixed inset-0
       transform-origin: center center
       rotate(-90deg)
       stroke-dasharray: 1
