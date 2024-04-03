@@ -17,9 +17,9 @@ export const dictionary = {
 		"/": [2],
 		"/Destiny": [3],
 		"/Heritage": [4],
-		"/Jubilee": [5],
-		"/hero": [6],
-		"/international/[[lang]]": [7]
+		"/Hero": [5],
+		"/international/[[lang]]": [6],
+		"/jubilee": [7]
 	};
 
 export const hooks = {

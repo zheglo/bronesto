@@ -1,5 +1,11 @@
+html,
 body {
   --at-apply: m-0 p-2 bg-red-100;
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -9,6 +15,10 @@ body {
 @font-face {
   font-family: "Playfair Display";
   src: url(/fonts/Playfair_Display.woff2) format("woff2");
+}
+
+a {
+  text-decoration: none;
 }
 
 :root {
