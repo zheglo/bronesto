@@ -1,9 +1,8 @@
 <script lang="ts">
-  import { animate, timeline } from "motion";
+  import {animate} from "motion"
   import { onMount } from "svelte";
 
   let circle
-  console.log(circle)
 
   onMount(() => {
     const draw = (progress) => ({

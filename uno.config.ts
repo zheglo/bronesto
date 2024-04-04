@@ -11,7 +11,7 @@ export default defineConfig({
       fonts: {
         serif: ["Playfair Display"],
         sans: ["Montserrat"],
-        mono: ["Fira Code", "Fira Mono"],
+        mono: ["Fira Code", "Fira Mono"]
       },
     }),
   ],
