@@ -17,7 +17,7 @@ export const dictionary = {
 		"/": [2],
 		"/Destiny": [3],
 		"/Heritage": [4],
-		"/Hero": [5],
+		"/hero": [5],
 		"/international/[[lang]]": [6],
 		"/jubilee": [7]
 	};

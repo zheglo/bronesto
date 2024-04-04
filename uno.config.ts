@@ -9,9 +9,9 @@ export default defineConfig({
     presetRemToPx(),
     presetWebFonts({
       fonts: {
-        serif: ["Playfair Display", "serif"],
-        sans: ["Montserrat", "sans-serif"],
-        mono: ["Fira Code", "Fira Mono:400,700"],
+        serif: ["Playfair Display"],
+        sans: ["Montserrat"],
+        mono: ["Fira Code", "Fira Mono"],
       },
     }),
   ],
