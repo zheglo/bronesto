@@ -1,5 +1,5 @@
-<script >
-
+<script lang="ts">
+  import {onMount} from 'svelte'
 </script>
 
 <section
@@ -8,6 +8,6 @@
     class="absolute bg-black h-full w-full object-cover -z-10"
     src='assets/jubilee/greenTheater.webp' />
 
- 
+
 
 </section>
