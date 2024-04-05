@@ -8,12 +8,13 @@ export default defineConfig({
     presetUno(),
     presetRemToPx(),
     presetWebFonts({
+      // provider: 'google',
       fonts: {
-        serif: ["Playfair Display"],
-        sans: ["Montserrat"],
-        mono: ["Fira Code", "Fira Mono"]
-      },
-    }),
-  ],
-  safelist: ["bg-orange-300", "styled-input"],
+        serif: ['Playfair Display: 400, 700, 900'],
+        sans: 'Montserrat',
+        local: ['Magical Childhood Regular'],
+        mono: ['Fira Code', 'Fira Mono']
+      }
+    })
+  ]
 });

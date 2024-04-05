@@ -10,7 +10,7 @@
       visibility: "visible"
     });
 
-    animate("circle", draw(1), { duration: 9, delay: 1 });
+    animate("circle", draw(1), { duration: 7, delay: 1 });
   });
 </script>
 

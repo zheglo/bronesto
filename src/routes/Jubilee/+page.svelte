@@ -9,9 +9,8 @@
     class="absolute bg-black h-full w-full object-cover -z-10"
     src='assets/jubilee/greenTheater.webp' />
 
-  <div class='absolute h-[50%] flex'>
-    <img class="absolute inset-0 object-contain overflow-x-hidden" src='assets/jubilee/joke.webp' />
-  </div>
-
+ <div class='absolute top:0 w-full h-[30%]'>
+   <img class="object-contain w-[45%] overflow-hidden" src='assets/jubilee/joke.webp' />
+</div>
 
 </section>
