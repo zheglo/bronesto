@@ -1,5 +1,6 @@
 <script lang="ts">
   import Onimation from 'components/Onimation.svelte'
+  import Sto from 'components/Sto.svelte'
 </script>
 
 <section class="relative h-[100dvh] w-[100dvw] shrink-0 flex items-center justify-center">
@@ -11,5 +12,6 @@
   </div>
 
   <Onimation />
+  <Sto />
 
 </section>
