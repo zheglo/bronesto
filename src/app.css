@@ -10,12 +10,18 @@ body {
 @font-face {
   font-family: "Montserrat", sans-serif;
   src: url(static/fonts/Montserrat.woff2) format("woff2");
-  font-weight: 900;
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Playfair Display";
   src: url(static/fonts/Playfair_Display.woff2) format("woff2");
+}
+@font-face {
+  font-family: 'Magical Childhood Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magical Childhood Regular'), url(fonts/MagicalChildhood-Rprjl.woff) format('woff')
 }
 
 a {

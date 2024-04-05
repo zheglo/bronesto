@@ -17,15 +17,5 @@
 </script>
 
 <div class="absolute h-[100dvh] flex items-center justify-center">
-  <h1 class="color-white" bind:this={sto}>0</h1>
+  <h1 class="font-local font-size-150px text-center color-white" bind:this={sto}>0</h1>
 </div>
-
-
-<style>
-  h1 {
-    font-family: "Montserrat";
-    text-align: center;
-    font-size: 200px;
-    font-weight: 900;
-  }
-</style>

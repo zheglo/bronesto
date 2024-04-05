@@ -8,7 +8,7 @@
     class="absolute bg-black h-full w-full object-cover -z-10"
     src='assets/jubilee/greenTheater.webp' />
 
- <div class='absolute w-full h-[30%]'>
+ <div class='absolute top:0 w-full h-[30%]'>
    <img class="object-contain w-[45%] overflow-hidden" src='assets/jubilee/joke.webp' />
 </div>
 
