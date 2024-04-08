@@ -10,7 +10,7 @@
     "sourceMap": true,
     "strict": true,
     "moduleResolution": "bundler",
-    "module": "commonjs",
+    "module": "esnext",
     "target": "es6",
     "outDir": "dist",
   },
