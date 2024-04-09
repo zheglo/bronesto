@@ -13,9 +13,6 @@
         { duration: 7, easing: "ease-out" }
       )
 
-      setTimeout(() => {
-
-    }, 1000)
   });
 </script>
 

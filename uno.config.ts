@@ -6,9 +6,8 @@ export default defineConfig({
   extractors: [extractorSvelte()],
   presets: [
     presetUno(),
-    presetRemToPx(),
+    // presetRemToPx(),
     presetWebFonts({
-      // provider: 'google',
       fonts: {
         serif: ['Playfair Display: 400, 700, 900'],
         sans: 'Montserrat',
