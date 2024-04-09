@@ -1,6 +1,11 @@
 <script lang="ts">
   import Onimation from 'components/Onimation.svelte'
   import Sto from 'components/Sto.svelte'
+  import { spring } from 'svelte/motion'
+  import { fly } from 'svelte/transition'
+
+  // let isVisible = false;
+
 </script>
 
 <section class="relative h-[100dvh] w-[100dvw] shrink-0 flex items-center justify-center">
@@ -13,5 +18,19 @@
 
   <Onimation />
   <Sto />
-
 </section>
+
+<!-- <label>Click here to view transitions</label>
+<input type="checkbox" on:click={() => show = !show} />
+<main>
+  {#if isVisible}
+    <div
+      class="text-5xl my-24"
+      in:fly={{ y: 200, duration: 500}}
+      out:fly={{ y: -200, duration: 500}}>
+    EEE
+    </div>
+  {/if}
+
+  <button on:click={() => isVisible = !isVisible}>Toggle</button>
+</main> -->
