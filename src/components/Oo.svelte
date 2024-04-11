@@ -4,15 +4,15 @@
 
   onMount(() => {
     const animateOO = [
-      ['wrapper', { x: '-110%' }, { delay: 6 }, { duration: 0.5 }]
+      ['wrapper2', { x: '-220%' }, { delay: 6 }, { duration: 0.5 }]
     ]
 
     timeline(animateOO)
   })
 </script>
 
-<wrapper
-  class="absolute inset-0 h-18% aspect-square flex items-center justify-center m-auto -z-9"
+<wrapper2
+  class="absolute inset-0 h-18% aspect-square flex items-center justify-center m-auto -z-8"
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -35,4 +35,4 @@
     >
     </circle>
   </svg>
-</wrapper>
+</wrapper2>

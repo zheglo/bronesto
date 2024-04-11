@@ -17,25 +17,24 @@
     ]
 
     timeline(animateO)
-
   })
 </script>
 
 <section>
   <!-- <div class="absolute inset-0 bg-black" bind:this={rectangle}></div> -->
 
-  <div class="h-screen flex justify-center items-center">
+  <div class="h-screen w=90% flex justify-center items-center">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-500 -500 1000 1000"
       height="85%"
       width="85%"
       preserveAspectRatio="xMidYMid meet"
-      fill="none"
-      stroke="#800000"
-      stroke-width="200px"
     >
       <circle
+        fill="none"
+        stroke="#800000"
+        stroke-width="200px"
         rotate="-90deg"
         stroke-dasharray="1"
         stroke-dashoffset="1"

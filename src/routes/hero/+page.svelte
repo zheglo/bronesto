@@ -2,6 +2,9 @@
   import Onimation from 'components/Onimation.svelte'
   import Sto from 'components/Sto.svelte'
   import O from 'components/O.svelte'
+  import Oo from 'components/Oo.svelte'
+  import Ooo from 'components/Ooo.svelte'
+  import N from 'components/N.svelte'
 </script>
 
 <section
@@ -21,7 +24,10 @@
     </video>
   </div>
 
+  <!-- <N />
   <O />
+  <Oo />
+  <Ooo /> -->
   <Onimation />
   <Sto />
 </section>
