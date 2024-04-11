@@ -1,5 +1,18 @@
-<script lang="ts">
+<script>
   import {onMount} from 'svelte'
+  import { animate, timeline } from "motion"
+
+  let fly
+
+  onMount(() => {
+
+    const broneFly = [
+      ["fly", {x: 1000}, {duration: 3}],
+    ]
+
+    timeline(broneFly)
+
+  })
 
 </script>
 
@@ -10,7 +23,7 @@
     src='assets/jubilee/greenTheater.webp' alt="openayr theater"/>
 
  <div class='absolute top:0 w-full h-[30%]'>
-   <img class="object-contain w-[45%] overflow-hidden" src='assets/jubilee/joke.webp' alt="old lady fly"/>
+   <img class="object-contain w-[45%] overflow-hidden" src='assets/jubilee/joke.webp' alt="old lady fly" bind:this={fly}/>
 </div>
 
 </section>

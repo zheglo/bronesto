@@ -1,5 +1,4 @@
 import { defineConfig, presetUno, presetWebFonts } from "unocss";
-import presetRemToPx from "@unocss/preset-rem-to-px";
 import extractorSvelte from "@unocss/extractor-svelte";
 
 export default defineConfig({
