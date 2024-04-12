@@ -6,7 +6,6 @@
     const animateOO = [
       ['wrapper', { x: '-110%' }, { delay: 6 }, { duration: 0.5 }]
     ]
-
     timeline(animateOO)
   })
 </script>

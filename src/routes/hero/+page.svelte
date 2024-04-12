@@ -24,10 +24,13 @@
     </video>
   </div>
 
-  <!-- <N />
+<div class="absolute w-90% flex justify-center">
+  <N />
   <O />
   <Oo />
-  <Ooo /> -->
+  <Ooo />
   <Onimation />
+</div>
+
   <Sto />
 </section>

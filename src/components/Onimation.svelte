@@ -13,10 +13,10 @@
     const animateO = [
       ['circle', draw(1), { duration: 5 }],
       ['circle', { scale: 0.25 }, { duration: 1 }],
-      []
     ]
-
     timeline(animateO)
+
+
   })
 </script>
 
@@ -45,5 +45,6 @@
       >
       </circle>
     </svg>
+
   </div>
 </section>
