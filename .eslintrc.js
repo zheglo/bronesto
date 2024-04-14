@@ -1,10 +1,21 @@
 module.exports = {
+  root: true,
   extends: [
+    './node.js',
     // add more generic rule sets here, such as:
     // 'eslint:recommended',
-    'plugin:svelte/recommended',
-    'plugin:svelte/prettier'
+    'svelte/recommended',
+    'svelte/prettier',
+    "@unocss"
+
   ],
+
+  plugins: [
+    'prettier',
+    'svelte/recommended',
+    'svelte/prettier'
+  ]
+
   rules: {
     // override/add rules settings here, such as:
     // 'svelte/rule-name': 'error'
@@ -32,9 +43,7 @@ overrides: [
         '@typescript-eslint/no-unsafe-member-access'
       ],
       compileOptions: {
-        postcss: {
-          configFilePath: './uno.config.ts'
-        }
+
       },
       kit: {
         files: {
@@ -42,6 +51,12 @@ overrides: [
         }
       }
     }
+  }
+
+  rules: {
+    'prettier/prettier': 'warn',
+    "@unocss/<rule-name>": "warn", // or "error",
+    "@unocss/<another-rule-name>": ["warn" /* or "error" */, { /* options */ }]
   }
 
 };

@@ -1,10 +1,10 @@
 <script lang="ts">
-  import Onimation from 'components/Onimation.svelte'
-  import Sto from 'components/Sto.svelte'
-  import O from 'components/O.svelte'
-  import Oo from 'components/Oo.svelte'
-  import Ooo from 'components/Ooo.svelte'
-  import N from 'components/N.svelte'
+  import Onimation from 'components/animateO/Onimation.svelte'
+  import Sto from 'components/animateO/Sto.svelte'
+  import O from 'components/animateO/O.svelte'
+  import Oo from 'components/animateO/Oo.svelte'
+  import Ooo from 'components/animateO/Ooo.svelte'
+  import N from 'components/animateO/N.svelte'
 </script>
 
 <section
@@ -24,13 +24,15 @@
     </video>
   </div>
 
-<div class="absolute w-90% flex justify-center">
-  <N />
-  <O />
-  <Oo />
-  <Ooo />
-  <Onimation />
-</div>
+
+  <div class='absolute flex mx-5pt'>
+    <O />
+    <Oo />
+    <Ooo />
+    <Onimation />
+  </div>
+
 
   <Sto />
+
 </section>

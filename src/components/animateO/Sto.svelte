@@ -23,6 +23,6 @@
 
 </script>
 
-<div class="absolute hw-80% inset-0 flex items-center justify-center">
+<div class="absolute h-80% w-20% flex items-center justify-center m-auto">
   <numb class="font-local font-size-7rem text-center color-white">0</numb>
 </div>

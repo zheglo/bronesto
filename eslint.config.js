@@ -8,7 +8,8 @@ export default [
   {languageOptions: { globals: globals.browser }},
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
-  ...eslintPluginSvelte.configs['flat/recommended'
+  ...eslintPluginSvelte.configs['flat/recommended',
+  unocss
 ];
 {
     rules: {

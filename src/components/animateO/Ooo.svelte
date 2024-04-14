@@ -4,26 +4,26 @@
 
   onMount(() => {
     const animateOO = [
-      ['wrapper', { x: '-110%' }, { delay: 6 }, { duration: 0.5 }]
+      ['wrapper3', { x: '205%' }, { delay: 6 }, { duration: 0.5 }],
+      // ['wrapper3', {opacity: 0}]
     ]
+
     timeline(animateOO)
   })
 </script>
 
-<wrapper
-  class="absolute inset-0 h-18% aspect-square flex items-center justify-center m-auto -z-9"
+<wrapper3
+class="absolute inset-0 w21% aspect-square flex items-center justify-center m-auto xl:242px"
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-126 -126 252 252"
-    heigt="100%"
-    width="100%"
     preserveAspectRatio="xMidYMid meet"
+  >
+    <circle
     fill="none"
     stroke="#800000"
     stroke-width="200px"
-  >
-    <circle
     rotate="-90deg"
     stroke-dasharray="1"
     stroke-dashoffset="1"
@@ -34,4 +34,4 @@
     >
     </circle>
   </svg>
-</wrapper>
+</wrapper3>
