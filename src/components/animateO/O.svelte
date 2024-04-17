@@ -20,7 +20,7 @@
   >
     <circle
     fill="none"
-    stroke="#800000"
+    stroke="#ff1493"
     stroke-width="200px"
     rotate="-90deg"
     stroke-dasharray="1"
@@ -35,7 +35,7 @@
     <path
     d='M -400 -500 L -400 850' pathLength="1"
     fill="none"
-    stroke="#800000"
+    stroke="#ff1493"
     stroke-width="200px"
     stroke-dasharray="1"
     stroke-dashoffset="1"

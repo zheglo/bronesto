@@ -22,7 +22,7 @@
     <path
     d='M -400 -500 L -400 500' pathLength="1"
     fill="none"
-    stroke="#800000"
+    stroke="#ff1493"
     stroke-width="200px"
     stroke-dasharray="1"
     stroke-dashoffset="1"
@@ -33,7 +33,7 @@
     <path
     d='M 270 500 L 250 -500' pathLength="1"
     fill="none"
-    stroke="#800000"
+    stroke="#ff1493"
     stroke-width="200px"
     stroke-dasharray="1"
     stroke-dashoffset="1"
@@ -44,7 +44,7 @@
     <path
     d='M-350 0 L 250 0' pathLength="1"
     fill="none"
-    stroke="#800000"
+    stroke="#ff1493"
     stroke-width="200px"
     stroke-dasharray="1"
     stroke-dashoffset="1"

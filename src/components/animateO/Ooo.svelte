@@ -22,7 +22,7 @@ class="absolute inset-0 w21% aspect-square flex items-center justify-center m-au
   >
     <circle
     fill="none"
-    stroke="#800000"
+    stroke="#ff1493"
     stroke-width="200px"
     rotate="-90deg"
     stroke-dasharray="1"
@@ -37,23 +37,12 @@ class="absolute inset-0 w21% aspect-square flex items-center justify-center m-au
     <path
     d='M 400 -500 L 400 850' pathLength="1"
     fill="none"
-    stroke="#800000"
+    stroke="#ff1493"
     stroke-width="200px"
     stroke-dasharray="1"
     stroke-dashoffset="1"
     visibility: hidden
     position: fixed
-    ></path>
-
-    <path d='M 0 350 C 0 750 -250 750 -450 750' pathLength="1"
-    fill="none"
-    stroke="#800000"
-    stroke-width="200px"
-    stroke-dasharray="1"
-    stroke-dashoffset="1"
-    visibility: hidden
-    position: fixed
-    stroke-miterlimit="10"
     ></path>
 
   </svg>
