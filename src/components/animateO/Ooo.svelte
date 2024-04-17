@@ -4,7 +4,7 @@
 
   onMount(() => {
     const animateOO = [
-      ['wrapper3', { x: '205%' }, { delay: 6 }, { duration: 0.5 }],
+      ['wrapper3', { x: '177%' }, { delay: 6 }, { duration: 0.5 }],
       // ['wrapper3', {opacity: 0}]
     ]
 
@@ -17,7 +17,7 @@ class="absolute inset-0 w21% aspect-square flex items-center justify-center m-au
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="-126 -126 252 252"
+    viewBox="-126 -126 252 1000"
     preserveAspectRatio="xMidYMid meet"
   >
     <circle
@@ -33,5 +33,28 @@ class="absolute inset-0 w21% aspect-square flex items-center justify-center m-au
     pathLength="1"
     >
     </circle>
+
+    <path
+    d='M 400 -500 L 400 850' pathLength="1"
+    fill="none"
+    stroke="#800000"
+    stroke-width="200px"
+    stroke-dasharray="1"
+    stroke-dashoffset="1"
+    visibility: hidden
+    position: fixed
+    ></path>
+
+    <path d='M 0 350 C 0 750 -250 750 -450 750' pathLength="1"
+    fill="none"
+    stroke="#800000"
+    stroke-width="200px"
+    stroke-dasharray="1"
+    stroke-dashoffset="1"
+    visibility: hidden
+    position: fixed
+    stroke-miterlimit="10"
+    ></path>
+
   </svg>
 </wrapper3>

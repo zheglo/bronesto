@@ -25,9 +25,10 @@
   </div>
 
 
-  <div class='absolute flex mx-5pt'>
+  <div class='absolute flex mx-10px'>
     <O />
     <Oo />
+    <N />
     <Ooo />
     <Onimation />
   </div>

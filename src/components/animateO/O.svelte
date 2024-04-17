@@ -4,7 +4,7 @@
 
   onMount(() => {
     const animateOO = [
-      ['wrapper', { x: '-99%' }, { delay: 6 }, { duration: 0.5 }]
+      ['wrapper', { x: '-94%' }, { delay: 6 }, { duration: 0.5 }]
     ]
     timeline(animateOO)
   })
@@ -15,7 +15,7 @@
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="-126 -126 252 252"
+    viewBox="-126 -126 252 400"
     preserveAspectRatio="xMidYMid meet"
   >
     <circle
@@ -31,5 +31,17 @@
     pathLength="1"
     >
     </circle>
+
+    <path
+    d='M -400 -500 L -400 850' pathLength="1"
+    fill="none"
+    stroke="#800000"
+    stroke-width="200px"
+    stroke-dasharray="1"
+    stroke-dashoffset="1"
+    visibility: hidden
+    position: fixed
+    ></path>
+
   </svg>
 </wrapper>
