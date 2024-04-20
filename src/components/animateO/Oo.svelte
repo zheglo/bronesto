@@ -16,7 +16,7 @@
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="-126 -500 252 1000"
+    viewBox="-125 -200 250 400"
     preserveAspectRatio="xMidYMid meet"
   >
     <circle
@@ -34,7 +34,7 @@
     </circle>
 
     <path
-    d='M-400 500 L-400 -750 L150 -750' pathLength="1"
+    d='M-400 500 L-400 -750 L200 -750' pathLength="1"
     fill="none"
     stroke="#ff1493"
     stroke-width="200px"

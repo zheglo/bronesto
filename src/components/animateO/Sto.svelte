@@ -2,7 +2,6 @@
   import { animate, timeline } from "motion";
   import { onMount } from "svelte";
 
-
   onMount(() => {
 
     const numb = document.querySelector("numb")
@@ -17,8 +16,8 @@
     }, 100)
 
     const animateOOO = [
-      ["numb", { y: '-175%' }, { delay: 5 }, { duration: 1 }],
-      ["numb", { color: 'white' }]
+      ["numb", { y: '-155%' }, { delay: 5 }, { duration: 1 }],
+      ["numb", { color: '#ff0000' }]
     ]
 
     timeline(animateOOO)
@@ -28,5 +27,5 @@
 </script>
 
 <div class="absolute h-80% w-20% flex items-center justify-center m-auto">
-  <numb class="font-local font-size-6vw text-center color-#ff0000">0</numb>
+  <numb class="font-local font-size-6vw text-center color-white">0</numb>
 </div>

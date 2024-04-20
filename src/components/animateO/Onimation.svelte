@@ -15,8 +15,6 @@
       ["path", draw(1), { duration: 0.5, at: "-0.2" }],
     ]
     timeline(animateO)
-
-
   })
 </script>
 
@@ -42,7 +40,7 @@
     >
     </circle>
 
-      <path d='M 2100 340 C 2100 740 1800 740 1700 740'
+    <path d='M 2100 340 C 2100 740 1800 740 1700 740'
       pathLength="1"
       fill="none"
       stroke="#ff1493"
@@ -52,7 +50,7 @@
       visibility: hidden
       position: fixed
       stroke-miterlimit="10"
-      ></path>
+    ></path>
 
   </svg>
 </div>

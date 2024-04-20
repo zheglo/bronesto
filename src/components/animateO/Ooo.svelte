@@ -17,7 +17,7 @@ class="absolute inset-0 w21% aspect-square flex items-center justify-center m-au
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="-126 -126 252 1000"
+    viewBox="-125 -125 248 1000"
     preserveAspectRatio="xMidYMid meet"
   >
     <circle

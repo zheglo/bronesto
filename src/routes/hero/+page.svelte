@@ -1,6 +1,7 @@
 <script lang="ts">
   import Onimation from 'components/animateO/Onimation.svelte'
   import Sto from 'components/animateO/Sto.svelte'
+  import White from 'components/animateO/White.svelte'
   import O from 'components/animateO/O.svelte'
   import Oo from 'components/animateO/Oo.svelte'
   import Ooo from 'components/animateO/Ooo.svelte'
@@ -10,6 +11,8 @@
 <section
   class="relative h-[100dvh] w-[100dvw] shrink-0 flex items-center justify-center"
 >
+  <White />
+
   <div class="absolute inset-x-0 inset-y-0 overflow-hidden">
     <video
       class="absolute h-full w-full object-cover -z-10"
@@ -26,6 +29,7 @@
 
 
   <div class='absolute flex mx-10px'>
+
     <O />
     <Oo />
     <N />
