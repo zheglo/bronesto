@@ -12,9 +12,11 @@
       ['circle', draw(1), { duration: 5 }],
       ['circle', { scale: 0.21 }, { duration: 1 }],
       ['path', { scale: 0.21 }, { duration: 1 }],
-      ["path", draw(1), { duration: 0.5, at: "-0.2" }],
+      ['path', draw(1), { duration: 0.5, at: "-0.2" }],
     ]
     timeline(animateO)
+
+
   })
 </script>
 
@@ -50,7 +52,8 @@
       visibility: hidden
       position: fixed
       stroke-miterlimit="10"
-    ></path>
+      >
+    </path>
 
   </svg>
 </div>

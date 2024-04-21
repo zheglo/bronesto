@@ -44,6 +44,5 @@ class="absolute inset-0 w21% aspect-square flex items-center justify-center m-au
     visibility: hidden
     position: fixed
     ></path>
-
   </svg>
 </wrapper3>

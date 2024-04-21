@@ -4,8 +4,8 @@
   import White from 'components/animateO/White.svelte'
   import O from 'components/animateO/O.svelte'
   import Oo from 'components/animateO/Oo.svelte'
-  import Ooo from 'components/animateO/Ooo.svelte'
   import N from 'components/animateO/N.svelte'
+  import Ya from 'components/animateO/Ya.svelte'
 </script>
 
 <section
@@ -33,10 +33,10 @@
     <O />
     <Oo />
     <N />
-    <Ooo />
+    <!-- <Ooo /> -->
     <Onimation />
+    <Ya/>
   </div>
-
 
   <Sto />
 
