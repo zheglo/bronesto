@@ -56,9 +56,8 @@
     </path>
 
     <path d='M 1700 740 C 1700 1300 1200 1600 640 1300
-            C 600 2000 -650 2000 -700 1300
-            C -1600 1700 -1900 1000 -1900 800'
-
+                        C 600 2000 -650 2000 -700 1300
+                        C -1600 1700 -1900 1000 -1900 850'
       pathLength="1"
       fill="none"
       stroke="#ff1493"
@@ -70,6 +69,21 @@
       stroke-miterlimit="10"
       >
     </path>
+
+    <path d='M -2000 -649 C -2000 -1200 -1200 -1500 -740 -1100
+                          C -650 -1800 650 -1800 700 -1100
+                          C 1150 -1500 2000 -1340 2000 -649'
+                    pathLength="1"
+                    fill="none"
+                    stroke="#ff1493"
+                    stroke-width="200px"
+                    stroke-dasharray="1"
+                    stroke-dashoffset="1"
+                    visibility: hidden
+                    position: fixed
+                    stroke-miterlimit="10"
+                    >
+</path>
 
   </svg>
 </div>
