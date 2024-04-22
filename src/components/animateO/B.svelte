@@ -3,21 +3,23 @@
   import { onMount } from 'svelte'
 
   onMount(() => {
-    const animateOO = [
-      ['wrapper2', { x: '-188%' }, { delay: 6 }, { duration: 0.5 }]
+    const animateB = [
+      ['wrapper2', { x: '-39.4%' }, { delay: 6 }, { duration: 0.5 }]
     ]
 
-    timeline(animateOO)
+    timeline(animateB)
   })
 </script>
 
 <wrapper2
-  class="absolute inset-0 w21% flex items-center justify-center m-auto xl:242px"
+  class="absolute h-screen w-1000px flex justify-center items-center z-3"
 >
   <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="-125 -200 250 400"
-    preserveAspectRatio="xMidYMid meet"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="-500 -500 1000 1000"
+  height="85%"
+  width="85%"
+  preserveAspectRatio="xMidYMid meet"
   >
     <circle
     fill="none"

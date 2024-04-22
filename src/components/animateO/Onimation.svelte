@@ -12,7 +12,7 @@
       ['circle', draw(1), { duration: 5 }],
       ['circle', { scale: 0.21 }, { duration: 1 }],
       ['path', { scale: 0.21 }, { duration: 1 }],
-      ['path', draw(1), { duration: 0.5, at: "-0.2" }],
+      ['path', draw(1), { duration: 0.5, }],
     ]
     timeline(animateO)
 
@@ -20,7 +20,7 @@
   })
 </script>
 
-<div class="h-screen flex justify-center items-center z-2">
+<div class="h-screen w-1000px flex justify-center items-center z-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-500 -500 1000 1000"
@@ -42,7 +42,23 @@
     >
     </circle>
 
-    <path d='M 2100 340 C 2100 740 1800 740 1700 740'
+    <path d='M 2000 340 C 2000 740 1700 740 1600 740'
+      pathLength="1"
+      fill="none"
+      stroke="#ff1493"
+      stroke-width="200px"
+      stroke-dasharray="1"
+      stroke-dashoffset="1"
+      visibility: hidden
+      position: fixed
+      stroke-miterlimit="10"
+      >
+    </path>
+
+    <path d='M 1700 740 C 1700 1300 1200 1600 640 1300
+            C 600 2000 -650 2000 -700 1300
+            C -1600 1700 -1900 1000 -1900 800'
+
       pathLength="1"
       fill="none"
       stroke="#ff1493"

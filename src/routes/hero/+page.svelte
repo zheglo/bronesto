@@ -2,10 +2,10 @@
   import Onimation from 'components/animateO/Onimation.svelte'
   import Sto from 'components/animateO/Sto.svelte'
   import White from 'components/animateO/White.svelte'
-  import O from 'components/animateO/O.svelte'
-  import Oo from 'components/animateO/Oo.svelte'
+  import R from 'components/animateO/R.svelte'
+  import B from 'components/animateO/B.svelte'
   import N from 'components/animateO/N.svelte'
-  import Ya from 'components/animateO/Ya.svelte'
+  import Ia from 'components/animateO/Ia.svelte'
 </script>
 
 <section
@@ -30,12 +30,12 @@
 
   <div class='absolute flex mx-10px'>
 
-    <O />
-    <Oo />
+    <R />
+    <B />
     <N />
     <!-- <Ooo /> -->
     <Onimation />
-    <Ya/>
+    <Ia/>
   </div>
 
   <Sto />

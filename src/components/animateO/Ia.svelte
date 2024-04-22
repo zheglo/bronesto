@@ -3,14 +3,14 @@
   import { onMount } from 'svelte'
 
   onMount(() => {
-    const animate3 = [
+    const animateIa = [
       ['wrapperI', { x: '37%' }, { delay: 6 }, { duration: 0.5 }]
     ]
-    timeline(animate3)
+    timeline(animateIa)
   })
 </script>
 
-<wrapperI class="absolute h-screen flex justify-center items-center z-3">
+<wrapperI class="absolute h-screen w-1000px flex justify-center items-center z-3">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-500 -500 1000 1000"
@@ -20,7 +20,7 @@
   >
     <circle
       fill="none"
-      stroke="#daa520"
+      stroke="#ff1493"
       stroke-width="200px"
       rotate="-90deg"
       stroke-dasharray="1"

@@ -3,20 +3,22 @@
   import { onMount } from 'svelte'
 
   onMount(() => {
-    const animateOO = [
-      ['wrapper4', { x: '95%' }, { delay: 6 }, { duration: 0.5 }]
+    const animateN = [
+      ['wrapper4', { x: '19.8%' }, { delay: 6 }, { duration: 0.5 }]
     ]
-    timeline(animateOO)
+    timeline(animateN)
   })
 </script>
 
 <wrapper4
-  class="absolute inset-0 w21% aspect-square flex items-center justify-center m-auto xl:242px"
+  class="absolute h-screen w-1000px flex justify-center items-center z-3"
 >
   <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="-126 -126 252 400"
-    preserveAspectRatio="xMidYMid meet"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="-500 -500 1000 1000"
+  height="85%"
+  width="85%"
+  preserveAspectRatio="xMidYMid meet"
   >
 
     <path

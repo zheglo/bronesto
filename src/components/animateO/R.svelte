@@ -3,22 +3,22 @@
   import { onMount } from 'svelte'
 
   onMount(() => {
-    const animateOO = [
-      ['wrapper3', { x: '177%' }, { delay: 6 }, { duration: 0.5 }],
-      // ['wrapper3', {opacity: 0}]
+    const animateR = [
+      ['wrapper', { x: '-19.7%' }, { delay: 6 }, { duration: 0.5 }]
     ]
-
-    timeline(animateOO)
+    timeline(animateR)
   })
 </script>
 
-<wrapper3
-class="absolute inset-0 w21% aspect-square flex items-center justify-center m-auto xl:242px"
+<wrapper
+  class="absolute h-screen w-1000px flex justify-center items-center z-3"
 >
   <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="-125 -125 248 1000"
-    preserveAspectRatio="xMidYMid meet"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="-500 -500 1000 1000"
+  height="85%"
+  width="85%"
+  preserveAspectRatio="xMidYMid meet"
   >
     <circle
     fill="none"
@@ -35,7 +35,7 @@ class="absolute inset-0 w21% aspect-square flex items-center justify-center m-au
     </circle>
 
     <path
-    d='M 400 -500 L 400 850' pathLength="1"
+    d='M -400 -500 L -400 850' pathLength="1"
     fill="none"
     stroke="#ff1493"
     stroke-width="200px"
@@ -44,5 +44,6 @@ class="absolute inset-0 w21% aspect-square flex items-center justify-center m-au
     visibility: hidden
     position: fixed
     ></path>
+
   </svg>
-</wrapper3>
+</wrapper>
