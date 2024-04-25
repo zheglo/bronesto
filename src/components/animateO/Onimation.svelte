@@ -20,11 +20,12 @@
   })
 </script>
 
-<div class="h-screen w-1000px flex justify-center items-center z-2">
+
+<div class="h-1200px flex justify-center items-center">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-500 -500 1000 1000"
-    height="85%"
+    height="1200px"
     width="85%"
     preserveAspectRatio="xMidYMid meet"
   >
@@ -73,17 +74,17 @@
     <path d='M -2000 -649 C -2000 -1200 -1200 -1500 -740 -1100
                           C -650 -1800 650 -1800 700 -1100
                           C 1150 -1500 2000 -1340 2000 -649'
-                    pathLength="1"
-                    fill="none"
-                    stroke="#ff1493"
-                    stroke-width="200px"
-                    stroke-dasharray="1"
-                    stroke-dashoffset="1"
-                    visibility: hidden
-                    position: fixed
-                    stroke-miterlimit="10"
-                    >
-</path>
+      pathLength="1"
+      fill="none"
+      stroke="#ff1493"
+      stroke-width="200px"
+      stroke-dasharray="1"
+      stroke-dashoffset="1"
+      visibility: hidden
+      position: fixed
+      stroke-miterlimit="10"
+      >
+    </path>
 
   </svg>
 </div>

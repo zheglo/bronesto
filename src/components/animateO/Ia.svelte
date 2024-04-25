@@ -10,11 +10,11 @@
   })
 </script>
 
-<wrapperI class="absolute h-screen w-1000px flex justify-center items-center z-3">
+<wrapperI class="absolute h-1200px w-100% flex justify-center items-center">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-500 -500 1000 1000"
-    height="85%"
+    height="1200px"
     width="85%"
     preserveAspectRatio="xMidYMid meet"
   >
