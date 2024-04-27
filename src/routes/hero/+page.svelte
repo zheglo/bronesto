@@ -30,11 +30,11 @@
 
   <div class='absolute flex mx-10px'>
 
-    <R />
     <B />
-    <N />
+    <R />
     <Onimation />
-    <Ia/>
+    <N />
+    <Ia />
   </div>
 
   <Sto />

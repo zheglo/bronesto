@@ -21,12 +21,12 @@
 </script>
 
 
-<div class="h-1200px flex justify-center items-center">
+<div class="relative h-50cqh flex justify-center items-center">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-500 -500 1000 1000"
-    height="1200px"
-    width="85%"
+    height="100cqh"
+    width="50cqw"
     preserveAspectRatio="xMidYMid meet"
   >
     <circle
@@ -43,7 +43,7 @@
     >
     </circle>
 
-    <path d='M 2000 340 C 2000 740 1700 740 1600 740'
+    <path d='M2000 340 C2000 740 1700 740 1600 740'
       pathLength="1"
       fill="none"
       stroke="#ff1493"
@@ -56,9 +56,9 @@
       >
     </path>
 
-    <path d='M 1700 740 C 1700 1300 1200 1600 640 1300
-                        C 600 2000 -650 2000 -700 1300
-                        C -1600 1700 -1900 1000 -1900 850'
+    <path d='M1700 740 C1700 1300 1200 1600 640 1300
+                        C600 2000 -650 2000 -700 1300
+                        C-1600 1700 -1900 1000 -1900 850'
       pathLength="1"
       fill="none"
       stroke="#ff1493"
@@ -71,9 +71,9 @@
       >
     </path>
 
-    <path d='M -2000 -649 C -2000 -1200 -1200 -1500 -740 -1100
-                          C -650 -1800 650 -1800 700 -1100
-                          C 1150 -1500 2000 -1340 2000 -649'
+    <path d='M-2000 -649 C-2000 -1200 -1200 -1500 -740 -1100
+                          C-650 -1800 650 -1800 700 -1100
+                          C1150 -1500 2000 -1340 2000 -649'
       pathLength="1"
       fill="none"
       stroke="#ff1493"

@@ -4,25 +4,25 @@
 
   onMount(() => {
     const animateN = [
-      ['wrapper4', { x: '19.8%' }, { delay: 6 }, { duration: 0.5 }]
+      ['wrapper4', { x: '22.9%' }, { delay: 6 }, { duration: 0.5 }]
     ]
     timeline(animateN)
   })
 </script>
 
 <wrapper4
-  class="absolute h-1200px w-100% flex justify-center items-center"
+  class="absolute h-50cqh flex justify-center items-center"
 >
   <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="-500 -500 1000 1000"
-  height="1200px"
-  width="85%"
+  height="50cqw"
+  width="50cqw"
   preserveAspectRatio="xMidYMid meet"
   >
 
     <path
-    d='M -400 -500 L -400 500' pathLength="1"
+    d='M-400 -500 L-400 500' pathLength="1"
     fill="none"
     stroke="#ff1493"
     stroke-width="200px"
@@ -33,7 +33,7 @@
     ></path>
 
     <path
-    d='M 270 500 L 250 -500' pathLength="1"
+    d='M270 500 L250 -500' pathLength="1"
     fill="none"
     stroke="#ff1493"
     stroke-width="200px"
@@ -44,7 +44,7 @@
     ></path>
 
     <path
-    d='M-350 0 L 250 0' pathLength="1"
+    d='M-350 0 L250 0' pathLength="1"
     fill="none"
     stroke="#ff1493"
     stroke-width="200px"

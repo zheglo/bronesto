@@ -4,7 +4,7 @@
 
   onMount(() => {
     const animateB = [
-      ['wrapper2', { x: '-39.4%' }, { delay: 6 }, { duration: 0.5 }]
+      ['wrapper2', { x: '-45.8%' }, { delay: 6 }, { duration: 0.5 }]
     ]
 
     timeline(animateB)
@@ -12,13 +12,13 @@
 </script>
 
 <wrapper2
-  class="absolute h-1200px w-100% flex justify-center items-center"
+  class="absolute h-50cqh flex justify-center items-center"
 >
   <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="-500 -500 1000 1000"
-  height="1200px"
-  width="85%"
+  height="100cqh"
+  width="50cqw"
   preserveAspectRatio="xMidYMid meet"
   >
     <circle

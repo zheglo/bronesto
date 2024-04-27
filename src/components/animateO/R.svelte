@@ -4,20 +4,20 @@
 
   onMount(() => {
     const animateR = [
-      ['wrapper', { x: '-19.7%' }, { delay: 6 }, { duration: 0.5 }]
+      ['wrapper', { x: '-22.9%' }, { delay: 6 }, { duration: 0.5 }]
     ]
     timeline(animateR)
   })
 </script>
 
 <wrapper
-  class="absolute h-1200px w-100% flex justify-center items-center"
+  class="absolute h-50cqh flex justify-center items-center"
 >
   <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="-500 -500 1000 1000"
-  height="1200px"
-  width="85%"
+  height="100cqh"
+  width="50cqw"
   preserveAspectRatio="xMidYMid meet"
   >
     <circle
@@ -35,7 +35,7 @@
     </circle>
 
     <path
-    d='M -400 -500 L -400 850' pathLength="1"
+    d='M-400 -500 L-400 850' pathLength="1"
     fill="none"
     stroke="#ff1493"
     stroke-width="200px"
