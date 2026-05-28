@@ -1,4 +1,4 @@
-<script lang="ts">
+ <script lang="ts">
   import { timeline, animate } from 'motion'
   import { onMount } from 'svelte'
 

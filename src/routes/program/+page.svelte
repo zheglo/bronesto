@@ -159,11 +159,10 @@
 		/>
 	</div>
 </section>
-<section class="relative h-[100dvh] w-[100dvw] flex flex-col bg-#fcfdca -z-3">
 
 
-
-  <h1 class="absolute bottom-25% font-sans font-size-3vw font-bold text-#800000 px-5%">
+<section class="relative h-[100dvh] w-[100dvw] flex flex-col bg-#fcfdca bottom-0 -z-3">
+ <h1 class="absolute bottom-25% font-sans font-size-3vw font-bold text-#800000 px-5% xl:font-size-2vw">
 		праздничные мероприятия в ознаменование столетнего бессмертия чудесной старушки будут
 		продолжаться до окончания года в разных прекрасных уголках нашей необъятной Родины в виде
 		выставок, концертов, перформансов, театрализованных постановок и прочего, о чём вы сможете
@@ -171,11 +170,11 @@
 	</h1>
 
   <footer class="absolute flex inset-x-0 bottom-0 items-center justify-around block h-[25dvh] bg-black -z-10">
-		<div class='w-25%'>
+		<!-- <div class='w-25% -z-3'>
 			<img src="assets/footer/br.svg" alt="logo">
-		</div>
+		</div> -->
 
-		
+
 
 		<p class='font-size-1vw text-#fff'>© ЖЕГЛО 2024</p>
   </footer>

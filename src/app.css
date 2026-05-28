@@ -19,24 +19,24 @@ body {
   src: sans("Montserrat"), url(static/fonts/Montserrat.woff2);
 }
 @font-face  {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    src: serif("Playfair Display"), url(static/fonts/Playfair_Display.woff2);
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  src: serif("Playfair Display"), url(static/fonts/Playfair_Display.woff2);
 }
 @font-face {
   font-family: 'Magical Childhood Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Magical Childhood Regular'), url(fonts/MagicalChildhood-Rprjl.woff) format('woff')
+    src: local("MagicalChildhood-Rprjl"), url(/fonts/MagicalChildhood-Rprjl.woff2);
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  line-height: 1.2;
-  @media (width <= 1440px) {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    @media (width <= 1440px) {
     font-size: 16px;
   }
   @media (width <= 1024px) {
