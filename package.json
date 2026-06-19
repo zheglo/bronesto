@@ -38,7 +38,6 @@
 	"type": "module",
 	"dependencies": {
 		"@pnpm/macos-x64": "^10.33.3",
-		"bits-ui": "^0.21.16",
 		"motion": "^10.18.0"
 	}
 }
