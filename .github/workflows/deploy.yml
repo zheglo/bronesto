@@ -37,6 +37,16 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_PRIVATE_KEY}}
           port: 2222
+          dangerous-clean-slate: false
+          dry-run: false
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            README.md
+            .htpasswd
+            .env
+            .env.*
           script: |
             cd /var/www/bronesto
             git pull origin master
