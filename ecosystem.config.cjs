@@ -41,7 +41,7 @@ module.exports = {
       repo: "git@gitlab.com:username/potapov.me.git",
       path: "/var/www/bronesto.fun",
       "post-deploy":
-        "npm ci && npm run build && pm2 reload ecosystem.config.cjs --env production",
+        "pnpm ci && pnpm run build && pm2 reload ecosystem.config.cjs --env production",
     },
   },
 };
