@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "bronesto",
-      cwd: "/var/www/bronesto.fun",
+      cwd: "/var/www/bronesto",
       script: "build/index.js",
       args: "start -p 3000",
 
@@ -39,7 +39,7 @@ module.exports = {
       host: "bronesto",
       ref: "origin/maister",
       repo: "https://github.com/zheglo/bronesto.git",
-      path: "/var/www/bronesto.fun",
+      path: "/var/www/bronesto",
       "post-deploy":
         "pnpm ci && pnpm run build && pm2 reload ecosystem.config.cjs --env production",
     },
