@@ -32,13 +32,13 @@ module.exports = {
     },
   ],
 
-  // Deployment configuration (опционально, используем GitLab CI)
+
   deploy: {
     production: {
-      user: "deployer",
-      host: "potapov.me",
-      ref: "origin/main",
-      repo: "git@gitlab.com:username/potapov.me.git",
+      user: "zheglo,
+      host: "bronesto",
+      ref: "origin/maister",
+      repo: "https://github.com/zheglo/bronesto.git",
       path: "/var/www/bronesto.fun",
       "post-deploy":
         "pnpm ci && pnpm run build && pm2 reload ecosystem.config.cjs --env production",
