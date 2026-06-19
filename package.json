@@ -23,7 +23,7 @@
 		"@unocss/extractor-svelte": "^0.59.4",
 		"@unocss/preset-rem-to-px": "^0.59.4",
 		"@unocss/svelte-scoped": "^0.59.4",
-		"eslint": "^8.57.1",
+		"eslint": "^10.5.0",
 		"eslint-config-prettier": "^9.1.2",
 		"eslint-plugin-svelte": "^2.46.1",
 		"prettier": "^3.8.3",
