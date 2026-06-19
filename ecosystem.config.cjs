@@ -35,7 +35,7 @@ module.exports = {
 
   deploy: {
     production: {
-      user: "zheglo,
+      user: "zheglo",
       host: "bronesto",
       ref: "origin/maister",
       repo: "https://github.com/zheglo/bronesto.git",
