@@ -36,7 +36,7 @@ jobs:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_PRIVATE_KEY}}
-          port: 2222
+          port: 2223
           dangerous-clean-slate: false
           dry-run: false
           exclude: |
