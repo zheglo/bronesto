@@ -4,7 +4,7 @@ module.exports = {
       name: "bronesto",
       cwd: "/var/www/bronesto",
       script: "build/index.js",
-      args: "start -p 3000",
+      args: "start -p 2222",
 
       env: {
         NODE_ENV: "production",
