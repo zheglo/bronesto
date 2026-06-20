@@ -3,12 +3,14 @@ module.exports = {
     {
       name: "bronesto",
       cwd: "/var/www/bronesto",
-      script: "build/index.js",
+      script: "var/www/bronesto/build/index.js",
       args: "start -p 2222",
+      time: true,
+      autorestart: true,
 
       env: {
         NODE_ENV: "production",
-        PORT: 3000,
+        PORT: 2222,
       },
 
       exec_mode: "cluster",
@@ -36,12 +38,12 @@ module.exports = {
   deploy: {
     production: {
       user: "zheglo",
-      host: "bronesto",
+      host: "77.90.158.194",
       ref: "origin/maister",
       repo: "https://github.com/zheglo/bronesto.git",
       path: "/var/www/bronesto",
       "post-deploy":
-        "pnpm ci && pnpm run build && pm2 reload ecosystem.config.cjs --env production",
+        "pnpm install && pnpm run build && pm2 reload ecosystem.config.cjs --env production",
     },
   },
 };
