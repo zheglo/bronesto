@@ -29,7 +29,7 @@ module.exports = {
       repo: "https://github.com/zheglo/bronesto.git",
       path: "/home/zheglo/bronesto",
       "post-deploy":
-        "pnpm install --frozen-lockfile --prod && pnpm run build && pm2 reload ecosystem.config.cjs --env production",
+        "pnpm install && pnpm run build && pm2 reload ecosystem.config.cjs --env production",
     },
   }
 }

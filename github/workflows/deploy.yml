@@ -22,6 +22,6 @@ jobs:
           script: |
             cd /home/zheglo/bronesto
             git pull origin master
-            pnpm install --frozen-lockfile --prod
+            pnpm install
             pnpm run build
             pm2 restart bronesto
