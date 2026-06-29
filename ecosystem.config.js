@@ -2,7 +2,7 @@ module.exports = {
   apps : [{
     name: 'bronesto',
     cwd: '/home/zheglo/bronesto',
-    script: './build/index.js',
+    script: '/home/zheglo/bronesto/build/index.js',
     exec_mode: 'cluster',
     watch: false,
   }],
