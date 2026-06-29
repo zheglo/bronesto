@@ -20,11 +20,27 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /home/zheglo/bronesto
-            git pull origin master
+            cd /home/zheglo/bronesto || { echo "ERROR: Directory not found"; exit 1; }
+            echo "Syncing repo state..."
+            git fetch origin
+            git reset --hard origin/master
+            if [ ! -f "ecosystem.config.cjs" ]; then
+              echo "ERROR: ecosystem.config.cjs not found!"
+              ls -la
+              exit 1
+            fi
+
             pnpm install
             pnpm run build
+
+            if [ ! -f "build/index.js" ]; then
+              echo "ERROR: build/index.js not found!"
+              exit 1
+            fi
+
             pm2 delete bronesto || true
             pm2 start ecosystem.config.cjs --update-env
             pm2 save
             pm2 startup
+            pm2 ls
+
