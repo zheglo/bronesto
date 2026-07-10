@@ -10,5 +10,5 @@ onMount(() => {
 })
 </script>
 
-<item class='absolute inset-0 bg-white z-5'>
+<item class='absolute inset-0 bg-black z-5'>
 </item>
